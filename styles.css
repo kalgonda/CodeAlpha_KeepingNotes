@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(189, 131, 236);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.container{
+    width: 100;
+    padding: 33px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.863);
+    box-shadow: 0 0 30px rgb(75, 7, 7);
+    border-radius: 30px;
+    margin-left: 33px;
+    margin-top: 5px;
+}
+
+h1{
+    color: darkgreen;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    flex: 1;
+    width: 270px;
+    height: 40px;
+    padding: 8px;
+    border: 2px rgba(11, 31, 2, 0.863);
+    box-shadow: 0 0 2px 1px rgb(27, 6, 143);
+    outline: none;
+    font-size: 20px;
+
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(43, 96, 177);
+    color: rgb(221, 243, 243);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+
+}
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 12px 8px 12px 50px;
+    list-style: lower-alpha;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    margin-block: 10px;
+}
+
+ul li span{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+}
